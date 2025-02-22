@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo{
@@ -39,13 +40,13 @@
 
 .add-first{
     color: #cccccc;
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     margin-left: 24px;
     padding: 10px 10px 0px 0px;
 }
 
-.add-sec{
-    font-size: 1rem;
+.add-second{
+    font-size: 0.87rem;
     margin-left: 3px;
 }
 
@@ -81,3 +82,45 @@
     font-size: 1rem;
     border: none;
 }
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0F1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* box language */
+
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 8px 19px 9px;
+    
+}
+
+.lang-name{
+    border: none;
+    border-radius: 4px;
+    background-color: #0F1111;
+    color: white;
+}
+
+/* box4 */
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.87rem;
+    font-weight: 700;
+}
+
